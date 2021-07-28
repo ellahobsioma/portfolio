@@ -7,6 +7,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./css/w3.css">
 <link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 <style>
 
 </style>
@@ -18,20 +20,35 @@
    <h1 class="w3-text-black w3-center title"><b>Lays Fotografia</b></h1>
     <hr style="border:5px solid #795548" class="w3-round">
   </div>
-  
   <!-- Photo grid (modal) -->
   <div class="w3-row-padding">
     <div class="w3-half">
       <img src="./img/IMG10.jpg" style="width:100%" onclick="onClick(this)">
       <img src="./img/IMG11.jpg" style="width:100%" onclick="onClick(this)">
       <img src="./img/IMG12.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG1.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG2.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG3.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG003.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG005.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG006.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG007.jpg" style="width:100%" onclick="onClick(this)">
     </div>
 
     <div class="w3-half">
       <img src="./img/IMG13.jpg" style="width:100%" onclick="onClick(this)">
       <img src="./img/IMG14.jpg" style="width:100%" onclick="onClick(this)">
       <img src="./img/IMG15.jpg" style="width:100%" onclick="onClick(this)">
-    </div>
+      <img src="./img/IMG7.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG8.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG9.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG00.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG001.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG002.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG004.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG008.jpg" style="width:100%" onclick="onClick(this)">
+      <img src="./img/IMG009.jpg" style="width:100%" onclick="onClick(this)">
+
   </div>
 
   <!-- Modal for full size images on click-->
@@ -56,8 +73,13 @@
   <!-- The Team -->
   <div class="w3-center">
     <div class="w3-margin-bottom">
-      <div class="w3-light-grey" style="width: 100%; margin: 0 auto">
-        <img src="./img/Photographer.jpg" style="width: 100%;">
+      <div class="w3-light-grey" style="width: 100%; w3-center">
+          <div class="w3-half">
+            <img src="./img/Photographer.jpg" style="width: 90%;">
+          </div>
+          <div class="w3-half">
+            <img src="./img/Photographer2.jpg" style="width: 90%;">
+          </div>
         <div class="w3-container">
           <h3>Lay</h3>
           <p class="w3-opacity">Photographer</p>
@@ -69,32 +91,29 @@
   <!-- Contact -->
   <div class="w3-container" id="contact" style="margin-top:50px">
     <h1 class="w3-xxxlarge w3-text-brown"><b>Contact Me</b></h1>
-    <p><h3><b>Let's talk! Fill up this form for recommendations. Thank you!</b></h3></p>
-    <form action="https://www.w3schools.com/action_page.php" target="_blank">
-      <div class="w3-section">
-        <label>Name</label>
-        <input class="w3-input w3-border" type="text" name="Name" required="">
-      </div>
-      <div class="w3-section">
-        <label>Email</label>
-        <input class="w3-input w3-border" type="text" name="Email" required="">
-      </div>
-      <div class="w3-section">
-        <label>Message</label>
-        <input class="w3-input w3-border" type="text" name="Message" required="">
-      </div>
-      <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
-    </form>  
+    <p><h3><b>Inquiries? Add and follow my social media accounts to stay connected. Thank you!</b></h3></p>
   </div>
-
+  <div class="wrapper">
+    <div class="w3-center">
+      <ul>
+        <li>
+          <a href="https://facebook.com/HoyEllah"><img src="img/facebook-circular-logo.png" width="50px"/></a>
+        </li>
+         <li>
+          <a href="https://twitter.com/hoy_ellah"><img src="img/twitter.png" width="50px"/></a>
+        </li>
+        <li>
+          <a href="https:///www.instagram.com/hoy_lay"><img src="img/instagram.png" width="50px"/></a>
+        </li>
+        <li>
+          <a href="https://github.com/ellahobsioma"><img src="img/github.png" width="50px"/></a>
+        </li>
+      </ul>
+    </div>
+  </div>
 <!-- End page content -->
 </div>
 <script>
-// Script to open and close sidebar
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("myOverlay").style.display = "block";
-}
  
 function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
